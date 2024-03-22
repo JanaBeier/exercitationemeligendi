@@ -1,0 +1,51 @@
+{
+  "name": "exercitationemeligendi",
+  "version": "1.0.0",
+  "description": "A simple library for multiple inheritance in JavaScript.",
+  "keywords": [
+    "ts",
+    "necessitatibus",
+    "inheritance",
+    "in",
+    "multiple-inheritance",
+    "class",
+    "aut",
+    "placeat",
+    "object oriented",
+    "object-oriented",
+    "inherits",
+    "quaerat",
+    "bases",
+    "extends"
+  ],
+  "homepage": "https://github.com/JanaBeier/exercitationemeligendi.git",
+  "bugs": {
+    "url": "https://github.com/JanaBeier/exercitationemeligendi.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanaBeier/exercitationemeligendi.git"
+  },
+  "license": "MIT",
+  "author": "MavisHagenes",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "array.prototype.flatmap": "^1.2.4",
+    "class-without-call-parent-constructor": "^2.0.4",
+    "reflect.ownkeys": "^1.0.2",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@bluelovers/tsconfig": "^1.0.25",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "tslint": "^6.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

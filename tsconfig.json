@@ -1,0 +1,31 @@
+{
+	"extends": "@bluelovers/tsconfig/esm/mapfile.json",
+	"compileOnSave": true,
+	"compilerOptions": {
+		"noImplicitOverride": false,
+		"sourceMap": true,
+		"declaration": true,
+		"downlevelIteration": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"target": "es2019",
+		"lib": [
+			"esnext",
+			"esnext.array",
+			"es2019",
+			"dom"
+		],
+		"esModuleInterop": true
+	},
+	"exclude": [
+		"./node_modules/*",
+		"./test/*"
+	]
+}
